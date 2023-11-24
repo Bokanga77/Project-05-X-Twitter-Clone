@@ -1,18 +1,36 @@
 import React from 'react';
+import media  from '../images/Media.png'
+import Gif  from '../images/Gif.png'
+import Group  from '../images/Group.png'
+import emoji from '../images/Emoji.png'
+import schedule  from '../images/Schedule.png'
 const Form = () => {
   return (
   
-      <form className="tweet-editor">
+      <div className="tweet-editor">
       <div>
-        <img src="src/images/profile-photo.png" className="avatar" />
+        <img src ="src/images/profile-photo.png" className ="avatar" />
       </div>
-      <div  >
-          <input className="tweet-editor-input" type="text" placeholder="What's happing" />
+      <div className='tweet-editor-form' >
+          <input className='tweet-editor-input'  type="text" placeholder="What's happing" />
+      
+      <div className="tweet-editor-buttons" >
+        <div className="tweet-editor-actions">
+          <img src={media} alt="icon-div"  />
+          <img src={Gif} alt="icon-div"  />
+          <img src={Group} alt="icon-div"  />
+          <img src={emoji} alt="icon-div"  />
+          <img src={schedule} alt="icon-div"  />
+        </div>
+        <button className="button" >Tweet</button>
+        </div>
       </div>
           
-      <button className="button" >Tweet</button>
-        
-      </form>
+      
+
+      
+      
+      </div>
   );
 };
 export default Form;
