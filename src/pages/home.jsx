@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/Header.jsx';
 import Form from '../components/Form.jsx';
+import TweetList from '../components/TweetList.js';
+import ManagerTweet from '../components/ManagerTweet.jsx';
 // import Tweets from '../components/Tweets.jsx';
 
 function Home() {
@@ -9,7 +11,7 @@ function Home() {
 
       <Header />
       <Form />
-      {/* <Tweets /> */}
+      <ManagerTweet tweet={TweetList}/> 
     </main>
   );
 }

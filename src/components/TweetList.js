@@ -1,10 +1,10 @@
 import cnn from '../images/cnn.png';
-import twitter from '../images/twitter.png';
+import twitterlogo from '../images/twitterlogo.png';
 import nyt from '../images/nyt.png';
-import groupe from '../images/Group.png';
-import emoji from '../images/Emoji.png';
+// import groupe from '../images/Group.png';
+// import Emoji from '../images/Emoji.png';
 import React from '../images/React.png';
-import share from '../images/share.png';
+import Share from '../images/Share.png';
 import Retweet from '../images/Retweet.png';
 import Reply from '../images/Reply.png';
 import imgFeuille from '../images/imgFeuille.png';
@@ -27,7 +27,7 @@ const TweetList = [
       numberReply: 57,
       iconRetweet: Retweet,
       numberRetwt: 56,
-      iconShare: share,
+      iconShare: Share,
       numberShare: null,
       iconLike: React,
       nummebrLike: 482,
@@ -49,7 +49,7 @@ const TweetList = [
       numberReply: 57,
       iconRetweet: Retweet,
       numberRetwt: 9,
-      iconShare: share,
+      iconShare: Share,
       numberShare: 19,
       iconLike: React,
       nummebrLike: 113,
@@ -58,8 +58,8 @@ const TweetList = [
   },
   {
     id: 2,
-    userImg:twitter,
-    userName: 'Twitter',
+    userImg:twitterlogo,
+    userName: 'twitter',
     iscertified: certif,
     tagUserName: '@Twitter',
     lastTime: "1 août",
@@ -70,7 +70,7 @@ const TweetList = [
       numberReply: 57,
       iconRetweet: Retweet,
       numberRetwt: 9,
-      iconShare: share,
+      iconShare: Share,
       numberShare: 19,
       iconLike: React,
       nummebrLike: 113,
@@ -80,7 +80,7 @@ const TweetList = [
   },
   {
     id: 3,
-    userImg:twitter,
+    userImg:twitterlogo,
     userName: 'Twitter',
     iscertified: certif,
     tagUserName: '@Twitter',
@@ -92,7 +92,7 @@ const TweetList = [
       numberReply: 57,
       iconRetweet: Retweet,
       numberRetwt: 9,
-      iconShare: share,
+      iconShare: Share,
       numberShare: "3M",
       iconLike: React,
       nummebrLike: 113,
@@ -102,7 +102,7 @@ const TweetList = [
   },
   {
     id: 4,
-    userImg:twitter,
+    userImg:twitterlogo,
     userName: 'Twitter',
     iscertified: certif,
     tagUserName: '@Twitter',
@@ -114,7 +114,7 @@ const TweetList = [
       numberReply: 57,
       iconRetweet: Retweet,
       numberRetwt: 9,
-      iconShare: share,
+      iconShare: Share,
       numberShare: 19,
       iconLike: React,
       nummebrLike: 113,
@@ -124,19 +124,19 @@ const TweetList = [
   },
   {
     id: 5,
-    userImg:twitter,
+    userImg:twitterlogo,
     userName: 'Twitter',
     iscertified: certif,
     tagUserName: '@Twitter',
     lastTime: "2h",
     text: `Ryan O’Neal has died at 82. <br><br><a href="http://theguardian.com/autumn23-tw" target="_blank">http://theguardian.com/autumn23-tw</a>`,
-    image: false,
+    image: null,
     nbrs: {
     iconReply: Reply,
     numberReply: 12,
     iconRetweet: Retweet,
     numberRetwt: 3,
-    iconShare: share,
+    iconShare: Share,
     numberShare: "37k",
     iconLike: React,
     nummebrLike: 7,
